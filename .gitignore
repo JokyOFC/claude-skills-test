@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Segredos (nunca rastrear)
+.env
+.env.*
+*.pem
+id_rsa
+*.key
+
+# Dependências (para quando o projeto crescer)
+node_modules/
